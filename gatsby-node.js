@@ -38,8 +38,8 @@ module.exports.onCreateNode = ({ node, actions }) => {
                   }
                 }
               }
-        }
-    `)
+            }
+        `)
 
     data.allMarkdownRemark.nodes.forEach((node) => {
       createPage({

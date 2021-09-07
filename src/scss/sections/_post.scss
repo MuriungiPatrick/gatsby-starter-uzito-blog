@@ -64,7 +64,7 @@
 }
 
 .post-intro-content {
-    background-color: $primary;
+    background-color: $post-bg;
     position: relative;
     padding-top: 2rem;
     padding-bottom: 6rem;
@@ -77,7 +77,7 @@
        margin: 3.5rem 1rem;  
                
         h1 {
-            color: $white;
+            color: $secondary;
             margin-bottom: 2rem;
         }
         
