@@ -1,0 +1,15 @@
+@import '../abstracts/variables';
+
+.navbar {
+    position: relative;
+    position: sticky;
+    background-color: $primary;
+    z-index: 999;   
+    @include shadow; 
+
+    .brand {
+        font-size: 2rem;
+        color: #fff; 
+        font-weight: 600;
+    }
+}
