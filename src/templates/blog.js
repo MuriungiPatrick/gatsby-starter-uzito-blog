@@ -33,14 +33,14 @@ query ($slug: String!) {
 
 export default function Blog({ data }) {
     const { html } = data.markdownRemark
-    const { title, category, date } = data.markdownRemark.frontmatter
+    const { title, category, tags, date } = data.markdownRemark.frontmatter
     return (
     <Layout>
         <Seo title={ title } />
         <section className="post-intro-content">
             <div className="container">
                 <div className="row">
-                   <div className="column-lg-11">
+                   <div className="col-lg-12">
                      <div className="post-meta">
                       <h1 className="display-1--post">{ title }</h1>                                                      
                       <div className="details">                    
@@ -52,8 +52,7 @@ export default function Blog({ data }) {
                         <div className="date">
                           <h4><FontAwesomeIcon icon={faCalendar} className="icon" />
                           {date }</h4>
-                        </div>
-                    
+                        </div>                   
                       </div>
                      </div>
                    </div>
@@ -63,7 +62,7 @@ export default function Blog({ data }) {
         <section className="post-ntop">
           <div className="container">
               <div className="row">
-              <div className="col-lg-11">
+              <div className="col-lg-12">
               <div className="post-section">
             <p dangerouslySetInnerHTML={ { __html: html}}></p>
                </div>

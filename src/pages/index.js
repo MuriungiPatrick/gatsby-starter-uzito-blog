@@ -45,19 +45,19 @@ export default function Home() {
         author='Patrick Muriungi' 
         keywords="Patrick Muriungi, web developer, jamstack developer, creator, tutorials,"/>
 
-<section className="intro-section">
-      <div className="container">
-      <div className="row">
-      <div className="col-lg-12 col-md-12 ">
-        <h1 className="display-1">
-          <span className="display-1--main">Gatsby starter</span>
-          <span className="display-1--main">Uzito Blog</span>
-          </h1>      
-        </div>
-       </div>
-      </div>
-  </section>
 
+  <section className="post-intro-content">
+         <div className="container">
+             <div className="row">
+                <div className="col-lg-11">
+                  <div className="content text-white">
+                   <h1 className="display-1--post">blog page</h1>                                     
+                   <h4>here you'll find all tutorials listed </h4>               
+                  </div>
+                </div>
+             </div>
+           </div>
+     </section>
   <section className="post-ntop">
      <div className="container">
        <div className="row">   
@@ -65,14 +65,14 @@ export default function Home() {
             return(                                        
                <div className="col-lg-4">
                  <div className="post-box border--4sides">                        
-                  <div className="img-card">       
+                  <figure className="img-card">       
                   <Link to={`/blog/${nodes.frontmatter.slug}`}>        
                   <img src={nodes.frontmatter.featuredImg.childImageSharp.fluid.originalImg} title={nodes.frontmatter.title} alt={nodes.frontmatter.title} />                     
                   </Link>
-                    </div>           
+                    </figure>           
                      <div className="content">
                        <div className="date">
-                         <strong>Published:</strong> {nodes.frontmatter.date}
+                        <h5> <strong>Published:</strong> {nodes.frontmatter.date}</h5>
                        </div>   
                        <Link to={`/blog/${nodes.frontmatter.slug}`}>
                        <h3>{nodes.frontmatter.title}</h3>

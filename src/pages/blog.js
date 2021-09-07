@@ -65,7 +65,7 @@ export default function Blog() {
        <div className="row">   
        { data.allMarkdownRemark.nodes.map((nodes) => {
             return(                                        
-               <div className="col-lg-4">
+               <div className="col-lg-4 col-md-6 col-sm-12">
                  <div className="post-box border--4sides">                        
                   <div className="img-card">       
                   <Link to={`/blog/${nodes.frontmatter.slug}`}>        
