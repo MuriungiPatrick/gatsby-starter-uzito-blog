@@ -1,38 +1,23 @@
-import React from "react"
+import React from 'react'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
 
-// markup
-export default function Home() {
-
-  return (
-
-    <Layout>
-      <Seo title='Home'
-        description='Official website for Patrick Muriungi a Jamstack developer, Developer and creator'
+export default function contact() {
+    return (
+        <Layout>
+      <Seo title='contact page'
+        description='contact description here'
         slug='/' 
         author='Patrick Muriungi' 
         keywords="Patrick Muriungi, web developer, jamstack developer, creator, tutorials,"/>
 
-<section className="intro-section">
-      <div className="container">
-      <div className="row">
-      <div className="col-lg-12 col-md-12 ">
-        <h1 className="display-1">
-          <span className="display-1--main">Gatsby starter</span>
-          <span className="display-1--main">Uzito Blog</span>
-          </h1>      
-        </div>
-       </div>
-      </div>
-  </section>
 
   <section className="post-intro-content">
        <div className="container">
            <div className="row">
               <div className="column-lg-11">
                 <div className="content text-white">
-                 <h1 className="display-1--post">All Tutorials </h1>                                     
+                 <h1 className="display-1--post">contact page </h1>                                     
                  <h4>here you'll find all tutorials listed </h4>               
                 </div>
               </div>
@@ -59,6 +44,5 @@ export default function Home() {
         </div>
      </section>
       </Layout>
-    
-   )
+    )
 }

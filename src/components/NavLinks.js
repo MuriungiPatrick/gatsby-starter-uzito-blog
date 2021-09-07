@@ -42,9 +42,9 @@ const NavItem = styled(Link)`
 export default function NavLinks() {
     return (
         <>
-        <NavItem to="/news" title="Tech News">What's new</NavItem>
-        <NavItem to="/downloads" title="Template downloads(eg adobe xd, html5, bootstrap)">Templates</NavItem>
-        <NavItem to="/tutorials" title="Tutorials">Tutorials</NavItem>
+        <NavItem to="/" title="Tech News">home</NavItem>
+        <NavItem to="/blog" title="blog">blog</NavItem>
+        <NavItem to="/contact" title="Tutorials">contact</NavItem>
      </>
     )
 }
