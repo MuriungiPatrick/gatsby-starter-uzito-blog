@@ -1,0 +1,56 @@
+@import '../abstracts/variables';
+
+// BORDER 4 SIDES 
+@mixin border4sides {
+    border-radius: 0.425rem;
+}
+// Font rendering
+@mixin font-smooth {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// SHADOW 
+@mixin shadow {
+    box-shadow: 0 .5rem 1rem rgba($black, .15);
+}
+// ABSOLUTE CENTER 
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+// ABSOLUTE LEFT 
+@mixin topLeft {
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+// ROUNDED CIRCLE  
+@mixin roundedCircle {
+    border-radius: 50%;
+}
+// TRANSITION PROPERTY 
+@mixin transitionProperty {
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+@mixin img-fluid {
+    // Part 1: Set a maximum relative to the parent
+    max-width: 100%;
+    // Part 2: Override the height to auto, otherwise images will be stretched
+    // when setting a width and height attribute on the img element.
+    height: auto;
+  }
+
+@mixin heading-line {
+    width: 100%;
+    height: 0.1rem;
+    display: block;
+    background-color: lighten($gray-300, 20%);
+    
+}
