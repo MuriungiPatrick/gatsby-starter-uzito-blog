@@ -33,11 +33,14 @@
    
     ```
     gatsby new [YOUR DIRECTORY NAME] https://github.com/MuriungiPatrick/gatsby-starter-uzito-blog.git  
+
     ```
 
 ### Go into or CD Into the newly created directory and run
 
-        ```gatsby develop
+        ```
+        gatsby develop
+
         ```
 
 ...
