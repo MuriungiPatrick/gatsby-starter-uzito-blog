@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-// import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Footer() {
@@ -15,7 +16,7 @@ export default function Footer() {
               </div>
         <div className="row">
         <Link to="#" className="back-to-top">
-            {/* <FontAwesomeIcon icon={faChevronUp} className="icon" /> */}
+            <FontAwesomeIcon icon={faChevronUp} className="icon" />
         </Link>  
       </div>
     </div>

@@ -8,4 +8,49 @@
     position: relative;
     background-position: center center;
     background-size: cover;
+
+
+}
+
+.display-1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: $secondary;
+    font-family: poppins 'sans-serif';
+    
+    
+    &--main {
+        text-transform: capitalize;
+        font-size: 1.6rem;
+        display: block;
+        margin-bottom: 1rem;
+        
+        @media (min-width: 992px) {
+            font-size: 3.4rem;
+        }
+        
+        
+    }
+    &--post {
+        font-size: 1.6rem;
+        display: block;
+        margin-bottom: 1rem;
+       
+        @media screen and (min-width: 768px) {
+            font-size: 2.4rem;
+        }
+        
+        
+    }
+    
+    &--sub {
+        text-align: center;
+        font-size: 0.875rem;
+        display: inline-block;
+
+        @media (min-width: 768px) {
+            font-size: 1.4rem;
+        } 
+    }
 }

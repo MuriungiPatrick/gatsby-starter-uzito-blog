@@ -14,15 +14,17 @@ export default function Home() {
         author='Patrick Muriungi' 
         keywords="Patrick Muriungi, web developer, jamstack developer, creator, tutorials,"/>
 
-        <section clasName="intro-section">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-4"><h1>column left 1</h1></div>
-              <div className="col-lg-4"><h1>column right 2</h1></div>
-              <div className="col-lg-4"><h1>column right 2</h1></div>
-            </div>
-          </div>
-        </section>
+<section className="intro-section">
+      <div className="container">
+      <div className="row">
+      <div className="col-lg-12">
+        <h1 className="display-1">
+          <span className="display-1--main">Designer, developer &#38; Creator</span>
+          </h1>      
+        </div>
+       </div>
+      </div>
+  </section>
       </Layout>
     
    )

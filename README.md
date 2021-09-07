@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby starter uzito blog
 </h1>
 
 ## 🚀 Quick start
@@ -20,10 +20,11 @@
 
 2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    ```text
+        https://github.com/MuriungiPatrick/gatsby-starter-uzito-blog.git
+    ```
 
-    ```shell
-    cd my-gatsby-site/
+    ```
     npm run develop
     ```
 

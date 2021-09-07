@@ -7,6 +7,7 @@ module.exports = {
     github: 'muriungipatrick',
   },
   plugins: [
+    "gatsby-plugin-fontawesome-css",
     "gatsby-plugin-styled-components",
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",

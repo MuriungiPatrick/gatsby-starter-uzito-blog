@@ -1,76 +1,11 @@
 @import '../abstracts/variables';
-
+@import '../mixins/mixins';
 
 .footer {
-    margin-top: 12rem;
+    margin-top: 2rem;
     padding-top: 4rem;
     background-color: $primary;
     text-align: center; 
-    
-
-    .socials {
-        position: relative;
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-        align-items: center;
-        margin-top: 3rem;
-        margin-bottom: 0.6rem;
-        
-        
-        .social-wrap {
-            position: relative;
-            display: grid;
-            grid-template-columns: repeat( auto-fit, minmax(4rem, 30%));
-
-            @media (min-width: 992px) {
-                display: grid;
-                grid-template-columns: repeat( auto-fit, minmax(6.25rem, 10%) );
-                justify-content: center;  
-            }        
-                  
-            .item {
-                padding: 0.5rem;
-                text-align: center; 
-                
-                
-                a {
-                    color: $white;
-                    
-    
-                    &:hover {
-                        @include roundedCircle;
-                        color: $secondary;
-                        text-decoration: none;
-                        font-weight: 600;
-                        border-bottom: 3px solid lighten($primary, 10%);
-                    
-                    }
-
-                }
-
-                .sm-icon {
-                    font-size: 1.2rem;                   
-
-                }
-                
-                p {
-                    padding: 0 0.5rem;
-                    text-transform: capitalize;
-                    
-                }
-
-                &:hover {
-                    outline: 0.1rem dotted lighten($secondary, 20%);
-                    background-color: lighten($primary, 10%);
-                }
-                
-    
-            }
-
-        }
-        
-        
-    }
 
 
     &__copyright {
