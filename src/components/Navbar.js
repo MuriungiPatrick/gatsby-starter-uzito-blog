@@ -13,7 +13,7 @@ const Navigation = styled.nav`
   margin: 0 auto;
   padding: 0 5vw;
   z-index: 999;
-  align-self: center;
+  align-items: center;
   position: sticky;
 
   @media (max-width: 768px) {
@@ -95,9 +95,7 @@ export default function Navbar() {
   <header className="navbar">
       <div className="container">
       <Navigation>
-     <div className="brand">
-     <Logo />
-       </div>
+      <Logo />
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}>

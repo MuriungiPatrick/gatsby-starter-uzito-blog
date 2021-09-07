@@ -8,8 +8,13 @@
     @include shadow; 
 
     .brand {
-        font-size: 2rem;
+        font-size: 1.6rem;
         color: #fff; 
         font-weight: 600;
+        text-align: start;
+
+        &:hover {
+            color: $secondary;
+        }
     }
 }
