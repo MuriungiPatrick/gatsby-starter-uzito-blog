@@ -1,9 +1,13 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.codewithpatrick.com",
     title: "uzito blog",
+    author: "Patrick Muriungi",
+    twitter: '@itsmuriungi',
+    github: 'muriungipatrick',
   },
   plugins: [
+    "gatsby-plugin-styled-components",
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
@@ -40,6 +44,14 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: "src",
+      },
+      __key: "src",
     },
   ],
 };
