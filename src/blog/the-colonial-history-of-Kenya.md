@@ -12,7 +12,7 @@ featuredImg: '../images/post3.jpg'
 
 ---
 
-![post14](images/post4.jpg)
+![post14](/post4.jpg)
 
 The colonial history of Kenya dates from the establishment of a German protectorate over the Sultan of Zanzibar's coastal possessions in 1885, followed by the arrival of the Imperial British East Africa Company in 1888. Imperial rivalry was prevented when Germany handed its coastal holdings to Britain in 1890. This was followed by the building of the Uganda Railway passing through the country.[52]
 

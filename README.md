@@ -14,7 +14,7 @@
 
 - Customizable( whether you're setting up a blog/ static website)
 - Easy editable content in Markdown files (posts, pages )
-- Styling with sass
+- Styling with sass 
 - Post categories
 - Fontawesome icons
 - Responsive ( desktop/tablet/mobile)

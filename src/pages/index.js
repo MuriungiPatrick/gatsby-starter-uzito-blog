@@ -17,7 +17,7 @@ export default function Home() {
           slug
           title
           category
-          date
+          date(fromNow: true)
           author
           tags
           featuredImg {
@@ -40,10 +40,10 @@ export default function Home() {
 
     <Layout>
       <Seo title='Home'
-        description='Official website for Patrick Muriungi a Jamstack developer, Developer and creator'
+        description='starter gatsby blog for Developers and creator'
         slug='/' 
         author='Patrick Muriungi' 
-        keywords="Patrick Muriungi, web developer, jamstack developer, creator, tutorials,"/>
+        keywords="Patrick Muriungi,Gatsby, gatsby blog, gatsby starter, web developer, jamstack developer, creator, tutorials,"/>
 
 
   <section className="post-intro-content">
@@ -51,8 +51,8 @@ export default function Home() {
              <div className="row">
                 <div className="col-lg-12">
                   <div className="content text-white">
-                   <h1 className="display-1--post">blog page</h1>                                     
-                   <h4>here you'll find all tutorials listed </h4>               
+                   <h1 className="display-1--post">Latest post</h1>                                     
+
                   </div>
                 </div>
              </div>
@@ -89,21 +89,26 @@ export default function Home() {
        </section>
    <section className="post-ntop">
    <div className="container">
-     <div className="row">
-                                             
-             <div className="col-lg-12 center-xs">
-               <div className="post-box border--4sides">                        
-                <div className="img-card">       
-               
-                  </div>           
-                   <div className="content">
-                     <div className="date">
-                       <strong>Published:</strong><em> </em>
-                     </div>                                                                                                         
-                  </div>                                    
+     <div className="row">   
+       { data.allMarkdownRemark.nodes.map((nodes) => {
+            return(                                        
+               <div className="col-lg-8">
+                 <div className="post-box border--4sides">                                  
+                     <div className="content">
+                       <div className="date">
+                        <h5> <strong>Published:</strong> {nodes.frontmatter.date}</h5>
+                       </div>   
+                       <Link to={`/blog/${nodes.frontmatter.slug}`}>
+                       <h3>{nodes.frontmatter.title}</h3>
+                  </Link>  
+                  <p>{nodes.excerpt}</p>     
+                   <Link to={`/blog/${nodes.frontmatter.slug}`}>Read more</Link>                                                                                                      
+                    </div>                                    
+                  </div>
                 </div>
-              </div>
-            </div>      
+                    )}
+                    )} 
+              </div>   
         </div>
      </section>
       </Layout>

@@ -18,7 +18,7 @@ Fossils found in Kenya have shown that primates inhabited the area for more than
 
 During excavations at Lake Turkana in 1984, paleoanthropologist Richard Leakey, assisted by Kamoya Kimeu, discovered the Turkana Boy, a 1.6-million-year-old Homo erectus fossil. Previous research on early hominids is particularly identified with Mary Leakey and Louis Leakey, who were responsible for the preliminary archaeological research at Olorgesailie and Hyrax Hill. Later work at the former site was undertaken by Glynn Isaac.
 
-![post1](images/post2.jpg)
+![post1](/post2.jpg)
 
 East Africa, including Kenya, is one of the earliest regions where modern humans (Homo sapiens) are believed to have lived. Evidence was found in 2018, dating to about 320,000 years ago, at the Kenyan site of Olorgesailie, of the early emergence of modern behaviours including long-distance trade networks (involving goods such as obsidian), the use of pigments, and the possible making of projectile points. It is observed by the authors of three 2018 studies on the site, that the evidence of these behaviours is approximately contemporary to the earliest known Homo sapiens fossil remains (such as at Jebel Irhoud in Morocco and Florisbad in South Africa), and they suggest that complex and modern behaviours had already begun in Africa around the time of the emergence of the species Homo sapiens.
 Neolithic

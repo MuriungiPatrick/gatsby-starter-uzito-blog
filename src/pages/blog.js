@@ -44,7 +44,7 @@ export default function Blog() {
           description='blog description here'
           slug='/' 
           author='Patrick Muriungi' 
-          keywords="Patrick Muriungi, web developer, jamstack developer, creator, tutorials,"/>
+          keywords="Gatsby, gatsby starter, web developer, jamstack developer, creator, tutorials,"/>
   
  
   
@@ -53,8 +53,8 @@ export default function Blog() {
              <div className="row">
                 <div className="col-lg-11">
                   <div className="content text-white">
-                   <h1 className="display-1--post">Blog posts</h1>                                     
-                   <h4>here you'll find all posts listed </h4>               
+                   <h1 className="display-1--post">Latest posts</h1>  
+                   <h4>here you'll find all latest post listed </h4>                                                   
                   </div>
                 </div>
              </div>

@@ -1,7 +1,7 @@
 {
   "name": "uzito-blog",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "uzito blog",
   "author": "Patrick Muriungi",
   "keywords": [

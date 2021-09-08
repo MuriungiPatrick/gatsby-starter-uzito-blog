@@ -12,7 +12,7 @@ featuredImg: '../images/post1.jpg'
 
 ---
 
-![post1](images/post1.jpg)
+![post1](/post1.jpg)
 
 The *Republic of Kenya* is named after Mount Kenya. The earliest recorded version of the modern name was written by German explorer Johann Ludwig Krapf in the 19th century. While travelling with a Kamba caravan led by the legendary long-distance trader Chief Kivoi, Krapf spotted the mountain peak and asked what it was called. Kivoi told him **"Kĩ-Nyaa"** or **"Kĩĩma- Kĩĩnyaa"**, probably because the pattern of black rock and white snow on its peaks reminded him of the feathers of the male ostrich.The Agikuyu, who inhabit the slopes of Mt. Kenya, call it Kĩrĩma Kĩrĩnyaga in Kikuyu, while the Embu call it "Kirenyaa". All three names have the same meaning.
 
