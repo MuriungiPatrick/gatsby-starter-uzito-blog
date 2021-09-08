@@ -1,9 +1,8 @@
+<h1 align="center">Gatsby starter uzito blog</h1>
+
+
 ![uzito-starter-blog](https://user-images.githubusercontent.com/11283502/132566913-fb5aac50-9056-4864-8fef-ebd751249df9.jpg)
 
-
-<h1 align="center">
-  Gatsby starter uzito blog
-</h1>
 
 ### [Preview the gatsby starter uzito blog ](https://gatsby-starter-uzito-blog.netlify.app/)
 
