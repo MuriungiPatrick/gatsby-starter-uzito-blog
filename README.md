@@ -1,7 +1,6 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
+<p align="center
+![uzito-starter-blog](https://user-images.githubusercontent.com/11283502/132566913-fb5aac50-9056-4864-8fef-ebd751249df9.jpg)
+
 </p>
 <h1 align="center">
   Gatsby starter uzito blog
@@ -12,16 +11,15 @@
 ...
 ## Features:
 
-- Customizable( whether you're setting up a blog/ static website)
+- Customizable( whether you're setting up a blog/static website)
 - Easy editable content in Markdown files (posts, pages )
 - Styling with sass 
 - Post categories
+- flexbox grid layout
+- styled components
 - Fontawesome icons
 - Responsive ( desktop/tablet/mobile)
 - Google Analytics
-- Favicons generator (node script)
-- Prettier code styling
-- Webpack BundleAnalyzerPlugin
 
  ## Install Gatsby Cli:
 

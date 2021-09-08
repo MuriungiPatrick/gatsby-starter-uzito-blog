@@ -18,7 +18,7 @@ The building of the railway was resisted by some ethnic groups—notably the Nan
 
 During the railway construction era, there was a significant influx of Indian workers, who provided the bulk of the skilled manpower required for construction. They and most of their descendants later remained in Kenya and formed the core of several distinct Indian communities such as the Ismaili Muslim and Sikh communities.
 
-![blog image ](/images/post5.jpg)
+![blog image ](/post5.jpg)
 
 While building the railway through Tsavo, a number of the Indian railway workers and local African labourers were attacked by two lions known as the Tsavo maneaters.
 

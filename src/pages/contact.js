@@ -17,8 +17,7 @@ export default function contact() {
            <div className="row">
               <div className="col-lg-12">
                 <div className="content text-white">
-                 <h1 className="display-1--post">contact page </h1>                                     
-                 <h4>here you'll find all tutorials listed </h4>               
+                 <h1 className="display-1--post">contact page </h1>                                                
                 </div>
               </div>
            </div>
@@ -27,15 +26,12 @@ export default function contact() {
    <section className="post-ntop">
    <div className="container">
      <div className="row">                                           
-             <div className="col-lg-6 col-md-6">                                 
-                   <div className="post-box border--4sides content">  
-                   <h1>Contact details</h1>       
+             <div className="col-lg-12 col-md-12">                                 
+                   <div className="post-box border--4sides">  
+                   <div className="content">  
+                   <h1>Put your Contact details here</h1>       
+                   </div>
                 </div>                                                    
-              </div>
-             <div className="col-lg-6 col-md-6">                                    
-                   <div className="post-box border--4sides content">       
-                   <h1>Contact details</h1>                                                                                     
-                  </div>                                    
               </div>
             </div>      
         </div>

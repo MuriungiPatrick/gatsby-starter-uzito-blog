@@ -90,9 +90,15 @@ export default function Home() {
    <section className="post-ntop">
    <div className="container">
      <div className="row">   
+     <div className="col-lg-12">
+                  <div className="content text-white">
+                   <h1 className="display-1--post">Another section with Latest Post without images</h1>                                     
+                  </div>
+                </div>
+         
        { data.allMarkdownRemark.nodes.map((nodes) => {
             return(                                        
-               <div className="col-lg-8">
+               <div className="col-lg-12">
                  <div className="post-box border--4sides">                                  
                      <div className="content">
                        <div className="date">
@@ -106,9 +112,10 @@ export default function Home() {
                     </div>                                    
                   </div>
                 </div>
+             
                     )}
                     )} 
-              </div>   
+          </div>   
         </div>
      </section>
       </Layout>
