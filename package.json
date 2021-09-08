@@ -5,7 +5,14 @@
   "description": "uzito blog",
   "author": "Patrick Muriungi",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-transformer-plugin",
+    "mathjax",
+    "markdown",
+    "uzito starter",
+    "gatsby-plugin",
+    "gatsby-theme"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -40,5 +47,13 @@
     "react-helmet": "^6.1.0",
     "sass": "^1.39.0",
     "styled-components": "^5.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MuriungiPatrick/gatsby-starter-uzito-blog"
+  },
+  "bugs": {
+    "url": "https://github.com/MuriungiPatrick/gatsby-starter-uzito-blog/issues"
   }
+  
 }

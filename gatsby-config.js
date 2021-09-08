@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.codewithpatrick.com",
-    title: "uzito blog",
+    title: "uzito starter",
     author: "Patrick Muriungi",
     twitter: '@itsmuriungi',
     github: 'muriungipatrick',

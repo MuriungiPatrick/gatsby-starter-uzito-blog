@@ -15,7 +15,7 @@ export default function contact() {
   <section className="post-intro-content">
        <div className="container">
            <div className="row">
-              <div className="col-lg-11">
+              <div className="col-lg-12">
                 <div className="content text-white">
                  <h1 className="display-1--post">contact page </h1>                                     
                  <h4>here you'll find all tutorials listed </h4>               
@@ -26,23 +26,20 @@ export default function contact() {
    </section>
    <section className="post-ntop">
    <div className="container">
-     <div className="row">
-                                             
-             <div className="col-lg-11 center-xs">
-               <div className="post-box border--4sides">                        
-                <div className="img-card">       
-               
-                  </div>           
-                   <div className="content">
-                     <div className="date">
-                       <strong>Published:</strong><em> </em>
-                     </div>                                                                                                         
+     <div className="row">                                           
+             <div className="col-lg-6 col-md-6">                                 
+                   <div className="post-box border--4sides content">  
+                   <h1>Contact details</h1>       
+                </div>                                                    
+              </div>
+             <div className="col-lg-6 col-md-6">                                    
+                   <div className="post-box border--4sides content">       
+                   <h1>Contact details</h1>                                                                                     
                   </div>                                    
-                </div>
               </div>
             </div>      
         </div>
      </section>
-      </Layout>
+    </Layout>
     )
 }

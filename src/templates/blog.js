@@ -65,16 +65,12 @@ export default function Blog({ data }) {
               <div className="col-lg-12">
               <div className="post-section">
             <p dangerouslySetInnerHTML={ { __html: html}}></p>
-               </div>
-              <div className="post-section">          
-            <div className="tags">
-                        
-                        </div>
-                    </div>
-                </div>     
-               </div>
-             </div>
-           </section>          
-        </Layout>
+            <h6>Tags: {tags} </h6>
+              </div>
+            </div>     
+          </div>
+        </div>
+      </section>          
+  </Layout>
     )
 }

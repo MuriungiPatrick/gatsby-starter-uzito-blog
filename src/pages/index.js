@@ -49,7 +49,7 @@ export default function Home() {
   <section className="post-intro-content">
          <div className="container">
              <div className="row">
-                <div className="col-lg-11">
+                <div className="col-lg-12">
                   <div className="content text-white">
                    <h1 className="display-1--post">blog page</h1>                                     
                    <h4>here you'll find all tutorials listed </h4>               
@@ -63,7 +63,7 @@ export default function Home() {
        <div className="row">   
        { data.allMarkdownRemark.nodes.map((nodes) => {
             return(                                        
-               <div className="col-lg-4">
+               <div className="col-lg-6">
                  <div className="post-box border--4sides">                        
                   <figure className="img-card">       
                   <Link to={`/blog/${nodes.frontmatter.slug}`}>        
@@ -91,7 +91,7 @@ export default function Home() {
    <div className="container">
      <div className="row">
                                              
-             <div className="column-lg-6 center-xs">
+             <div className="col-lg-12 center-xs">
                <div className="post-box border--4sides">                        
                 <div className="img-card">       
                

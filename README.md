@@ -7,10 +7,12 @@
   Gatsby starter uzito blog
 </h1>
 
+### [Preview the gatsby starter uzito blog ](https://gatsby-starter-uzito-blog.netlify.app/)
 
+...
 ## Features:
 
-- Customizable
+- Customizable( whether you're setting up a blog/ static website)
 - Easy editable content in Markdown files (posts, pages )
 - Styling with sass
 - Post categories
@@ -25,6 +27,7 @@
 
     ```
     npm install --global gatsby-cli 
+  
     ```
 ...
 ## Getting started
@@ -64,8 +67,8 @@
 
 - Fork the repo
 - Create your feature branch (git checkout -b feature/fooBar)
-- Commit your changes (git commit -am 'Add some fooBar')
-- Push to the branch (git push origin feature/fooBar)
+- Commit your changes (git commit -am 'Add some comment')
+- Push to the branch (git push origin feature)
 - Create a new Pull Request
 
 ## Licence

@@ -19,7 +19,7 @@ export default function Blog() {
             slug
             title
             category
-            date
+            date(fromNow: true)
             author
             tags
             featuredImg {
@@ -32,7 +32,7 @@ export default function Blog() {
             }
           }
           html
-          excerpt(pruneLength: 120)
+          excerpt(pruneLength: 80)
         }
       }
     }
@@ -53,8 +53,8 @@ export default function Blog() {
              <div className="row">
                 <div className="col-lg-11">
                   <div className="content text-white">
-                   <h1 className="display-1--post">blog page</h1>                                     
-                   <h4>here you'll find all tutorials listed </h4>               
+                   <h1 className="display-1--post">Blog posts</h1>                                     
+                   <h4>here you'll find all posts listed </h4>               
                   </div>
                 </div>
              </div>
@@ -72,6 +72,31 @@ export default function Blog() {
                   <img src={nodes.frontmatter.featuredImg.childImageSharp.fluid.originalImg} title={nodes.frontmatter.title} alt={nodes.frontmatter.title} />                     
                   </Link>
                     </div>           
+                     <div className="content">
+                       <div className="date">
+                         <h5><strong>Published:</strong> {nodes.frontmatter.date}</h5>
+                       </div>   
+                       <Link to={`/blog/${nodes.frontmatter.slug}`}>
+                       <h3>{nodes.frontmatter.title}</h3>
+                  </Link>  
+                  <p>{nodes.excerpt}</p>     
+                   <Link to={`/blog/${nodes.frontmatter.slug}`}>Read more</Link>                                                                                                      
+                    </div>                                    
+                  </div>
+                </div>
+                    )}
+                    )} 
+              </div>      
+          </div>
+       </section>
+
+       <section className="post-ntop">
+       <div className="container">
+       <div className="row">   
+       { data.allMarkdownRemark.nodes.map((nodes) => {
+            return(                                        
+               <div className="col-lg-4 col-md-6 col-sm-12">
+                 <div className="post-box border--4sides">                                  
                      <div className="content">
                        <div className="date">
                          <strong>Published:</strong> {nodes.frontmatter.date}
