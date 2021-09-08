@@ -1,7 +1,6 @@
-<p align="center
 ![uzito-starter-blog](https://user-images.githubusercontent.com/11283502/132566913-fb5aac50-9056-4864-8fef-ebd751249df9.jpg)
 
-</p>
+
 <h1 align="center">
   Gatsby starter uzito blog
 </h1>
