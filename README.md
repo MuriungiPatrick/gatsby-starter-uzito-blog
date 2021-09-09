@@ -4,15 +4,16 @@
 ![uzito-starter-blog](https://user-images.githubusercontent.com/11283502/132566913-fb5aac50-9056-4864-8fef-ebd751249df9.jpg)
 
 
-### [Preview the gatsby starter uzito blog ](https://gatsby-starter-uzito-blog.netlify.app/)
+### [Live Preview ](https://gatsby-starter-uzito-blog.netlify.app/)
 
 ...
 ## Features:
 
 - Customizable( whether you're setting up a blog/static website)
 - Easy editable content in Markdown files (posts, pages )
-- Styling with sass 
-- Post categories
+- Styling with sass .
+- Post categories 
+- Easy to customize Helmet for(S.E.O)
 - flexbox grid layout
 - styled components
 - Fontawesome icons
@@ -28,7 +29,7 @@
 ...
 ## Getting started
 
-> Install the uzito starter using Gatsby Cli `gatsby new` command.
+ Install the uzito starter using Gatsby Cli `gatsby new` command.
    
     ```
     gatsby new [YOUR DIRECTORY NAME] https://github.com/MuriungiPatrick/gatsby-starter-uzito-blog.git  
@@ -48,12 +49,11 @@
 
 **Open the code and start customizing!**
 
-  
 
 
 ## 🚀 Deploy:
 
-> Deploy this starter with one click on (Gatsby Cloud / Netlify / Vercel)
+ Deploy this starter with one click on (Gatsby Cloud / Netlify / Vercel)
 
 ## Author: 
 
