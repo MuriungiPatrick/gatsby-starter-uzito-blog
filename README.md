@@ -1,8 +1,7 @@
 <h1 align="center">Gatsby starter uzito blog</h1>
 
 
-![uzito-starter-blog](https://user-images.githubusercontent.com/11283502/132566913-fb5aac50-9056-4864-8fef-ebd751249df9.jpg)
-
+![uzito-starter-blog](https://user-images.githubusercontent.com/11283502/132683989-8a063d5d-b91a-4061-a201-8c1c728f4b5e.jpg)
 
 ### [Live Preview ](https://gatsby-starter-uzito-blog.netlify.app/)
 
@@ -13,7 +12,7 @@
 - Easy editable content in Markdown files (posts, pages )
 - Styling with sass .
 - Post categories 
-- Easy to customize Helmet for(S.E.O)
+- Helmet for(S.E.O)
 - flexbox grid layout
 - styled components
 - Fontawesome icons
